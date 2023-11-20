@@ -1,0 +1,176 @@
+body{       
+    margin:0;
+    width:100vw;
+}
+.container {    
+    width: 100vw; /* it defines a container that occupies the entire page. */
+    height:2000px; 
+    margin:0px;
+    
+}
+
+nav{   /*  navbar */
+    display:flex;
+    height:60px;
+    width: 100%;
+    border: 2px solid white;
+    background-image: radial-gradient(circle at 60% 100%,rgba(170,82,255,.7),rgba(255,255,255,0) 73%),radial-gradient(circle closest-corner at 30% 0,#febf5e,#fff);
+}
+header{      /* header design */
+    display:flex;
+    height:70px;
+    width: 100%;
+    background-color:white;
+    margin-left: 60px;
+
+}
+
+.entry{      /* the paragraph describing the content */
+    display: flex;
+    height:80px;
+    margin-left: 60px; 
+    font-size:18px; 
+    justify-content: space-around;
+}
+
+button {      /* all the "start" button */
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: #febf5e;
+    height: 40px;
+    width: 80px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid white;
+    
+}
+
+.courses{      /* flexbox, which indicates the area where popular courses are located  */
+    margin-top:50px;
+    display:flex;
+    height:290px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.course{         /* the flexbox used for each of the popular courses  */
+    display:flex;
+    height:285px;
+    width:400px;
+    border: 2px solid white ;
+    margin:0px 50px;
+    border-radius: 8px;
+    background-color:#c7c9ff;
+    flex-direction: column;
+    
+}
+
+.info{          /* course information  */
+    display: flex;
+    border:2px dashed white;
+    height:150px;
+    width: auto;
+    justify-content: space-between;
+}
+
+.text{        /*  for text styles */
+    font-family: Arial, Helvetica, sans-serif;
+    color:#1a202c ;
+    padding:15px;
+    height:100px;
+}
+
+
+.main{          /* the flexbox I have allocated to the area that holds the bars inside */
+    display:flex;
+    height:600px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-left:5%;
+    justify-content:center;
+}
+
+.left-bar{       /* the area of  all lessons */
+    display:flex;
+    height:600px;
+    width:40%;
+    flex-direction: column;
+   
+}
+.lessons{        /* flexboxes for lessons  */
+    display: flex;
+    height: 20px;
+    width:100%;
+    border: 5px solid #febf5e;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #fff;
+    margin:5px;
+}
+.middle-bar{      /* the area for the image */
+    display:flex;
+    height:600px;
+    width: 35%;
+    flex-direction: column; 
+}
+.right-bar{       /* the area for user informations and top10 user */
+    display:flex;
+    height:600px;
+    width:18%;
+    margin-top: 10px;
+    margin-right:5%;
+    background-color: #febf5e;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.profile{      /* user-information  */
+    display:flex;
+    height:200px;
+    width:auto;
+    margin:20px 30px;
+    padding:10px;
+    border:3px solid white;
+    border-radius: 10px;
+    background-color: white;
+    flex-direction: column;
+}
+
+.ranked{       /*  top10 user */
+    display:flex;
+    height:300px;
+    width:auto;
+    margin:20px 30px;
+    padding:10px;
+    border:3px solid white;
+    border-radius: 10px;
+    background-color: white;
+    flex-direction: column;
+}
+
+
+footer{      
+    display:flex;
+    height:80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;  
+    background-color: #444bff; 
+    margin-top: 20px;
+}
+footer.p{     
+    margin-left:500px;
+}
+.logo{         /* logo style */
+    color:#444bff;
+    margin:12px 80px 17px 200px;
+}
+a:link{    
+    color:white;
+}
+a:hover{
+    color:black;
+}
+
+p{
+    color:#1a202c;
+}
