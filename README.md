@@ -1,4 +1,4 @@
 # CENG3507
-**WEB DEVELOPMENT AND DESıGN MıDTERM PROJECT**
+**WEB DEVELOPMENT AND DESIGN MIDTERM PROJECT**
 
-**Design Of a Webpage Which I Created**
+***Design Of a Webpage Which I Created***
