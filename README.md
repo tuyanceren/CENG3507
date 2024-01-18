@@ -22,7 +22,7 @@
 <img width="1192" alt="Ekran Resmi 2024-01-18 14 55 33" src="https://github.com/tuyanceren/CENG3507/assets/76476291/8b5fd06d-64e6-415b-9c70-eb457b27e5d2">
 
 ----------------------------------------------
-
+***DESCRIPTION FOR FINAL PROJECT***
 Use-Case Scenario: User Actions:
 1. Add Course and Set Grading Scale:
 - Selahattin adds "3507 Web Development and Programming" to the system, specifying the grading scale for the lecture (1).
